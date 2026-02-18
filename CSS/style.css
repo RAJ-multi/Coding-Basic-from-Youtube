@@ -1,0 +1,207 @@
+h1 {
+    color: blue;
+}
+
+body {
+    background-color: rgb(241, 32, 9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    /* The above three lines can be combined into one line as follows: */
+    font: bold 18px Arial, Helvetica, sans-serif;
+
+    line-height: 1.8em;
+    margin: 0;
+}
+
+.box-2 {
+    width: 50%;
+    height: 70%;
+    background-color: black;
+    display: flex;
+    margin: auto;
+    color: azure;
+    border-right: 5px solid white;
+    border-left: 5px solid rgb(248, 248, 251);
+    border-top: 5px solid rgb(3, 41, 253);
+    border-bottom: 5px solid rgb(16, 9, 238);
+    border-width: 5px;
+    border-top-style: dotted;
+    padding: 20px;
+    margin: top 20px;
+}
+
+.box-1 {
+    background-color: saddlebrown;
+    width: 60%;
+    height: 70%;
+    background-color: rgb(251, 250, 252);
+    border: 5px solid rgb(19, 255, 145);
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.box-3 h2{
+    font-family:Tahoma;
+    font-style: italic;
+    font-weight: 800;
+    text-decoration:underline ;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 3px solid rgb(158, 128, 128);
+    padding: 10px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.clr {
+    clear: both;
+}
+
+a:hover {
+    color: rgb(253, 216, 9);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(65, 247, 5);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.categories {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 16px;
+}  
+
+.categories h3 {
+    text-align: center;
+}
+
+.categories ul {
+    padding: 0;
+    list-style-type: square;
+}
+
+.categories li {
+    position: relative; /* To position the list item relative to its normal position */
+    padding-left: 27px;
+    margin: 10px 0;
+    padding-bottom: 8px;
+    border-bottom: 1px dotted rgb(255, 255, 255);
+}
+
+.categories li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;   /* desired width */
+    height: 16px;  /* desired height */
+    background-image: url("https://i.postimg.cc/mrWfMLGx/coding-defult-logo.png");
+    background-size: cover; /* resize to fit */
+    background-repeat: no-repeat;
+}
+
+.my_form {
+    padding: 20px;
+
+}
+
+.my_form .form-group {  
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}               
+
+.my_form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}           
+
+.my_form input[type="text"], .my_form input[type="email"], .my_form input[type="number"] {
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+}
+
+.my_form input[type="submit"] {
+    background-color: rgb(7, 7, 7);
+    color: rgb(251, 1, 1);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.my_form input[type="submit"]:hover {
+    background-color: rgb(0, 255, 98);
+}
+
+.block {
+    float: left;
+    width: 33%;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    box-sizing: border-box;
+} 
+
+#main-block {
+    float: left;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url("https://i.postimg.cc/K8w4CFGj/lucid-origin-Samurai-in-flowing-black-haori-meditating-under-blood-red-harvest-moon-ancient-t-0.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#sidebar{
+    float: right;
+    width: 50%;
+    background-color: rosybrown;
+    color: rgb(19, 18, 18);
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.fix-me {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.my_list li::first-child {
+    background: rgb(0, 255, 98);
+    border: 16px solid rgb(255, 255, 255);
+}
+
+.my_list li::last-child {
+    background: rgb(34, 0, 255);
+}
+
+.my_list li::nth-child(2) {
+    background: rgb(255, 0, 217);
+    border: 16px solid rgb(255, 255, 255);
+}
+
+.my_list li::nth-child(even) {
+    background: rgb(255, 255, 255);
+    border: 16px solid rgb(255, 255, 255);
+}                      
+
