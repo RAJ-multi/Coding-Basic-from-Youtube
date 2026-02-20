@@ -157,12 +157,13 @@ a:visited {
 
 #main-block {
     float: left;
-    width: 50%;
-    height: 100%;
+    width: 424px;
+    height: 424px;
     box-sizing: border-box;
     background-image: url("https://i.postimg.cc/K8w4CFGj/lucid-origin-Samurai-in-flowing-black-haori-meditating-under-blood-red-harvest-moon-ancient-t-0.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    color: rgb(199, 175, 175);
 }
 
 
