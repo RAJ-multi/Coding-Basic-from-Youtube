@@ -248,3 +248,41 @@ navbar .container {
     padding: 20px;
     margin-top: 40px;
 }
+
+
+#Home_navbar {
+    background-color: #1a1a1a; 
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+#Home_navbar .container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    color: #ffffff; 
+}
+
+#Home_navbar a {
+    color: #eb0e12;
+    text-decoration: none; 
+    margin: 0 5px; 
+    transition: color 0.3s ease;
+}
+
+
+#Home_navbar a:hover {
+    color: #ffffff; 
+}
+
+#Home_navbar a:active {
+     color: #45e315;
+    padding-right: 16px;
+}
+
+#Home_navbar .container a + a::before {
+    content: "/"; 
+    margin: 0 5px;
+    color: #ffffff;
+}
